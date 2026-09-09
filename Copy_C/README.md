@@ -27,4 +27,4 @@ Run the compiled executable with two arguments: the source file and the destinat
 ## Error Handling
 - **Missing arguments:** The program requires exactly two arguments. If fewer are provided, it prompts: `Plz input 2 arguments, src and destination files`.
 - **Invalid source file:** If the source file cannot be opened (e.g., does not exist), it displays: `Input file is emptry! error!`.
-- **Invalid de
+- **Invalid destination file:** If the output file cannot be created or opened for writing, it displays: `Error with creation of out file! errror`.
